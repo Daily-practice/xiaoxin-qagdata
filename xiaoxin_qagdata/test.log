@@ -1,0 +1,136 @@
+2019-11-13 10:57:28 INFO  XiaoxinZyDefaultData:30 - 创建订单信息
+2019-11-13 10:57:28 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-11-13 10:57:28 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-13 10:57:28 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://fun-qa.xiaoxin.tech:443][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 50]
+2019-11-13 10:57:28 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://fun-qa.xiaoxin.tech:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+2019-11-13 10:57:28 DEBUG MainClientExec:234 - Opening connection {s}->https://fun-qa.xiaoxin.tech:443
+2019-11-13 10:57:28 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to fun-qa.xiaoxin.tech/47.93.104.73:443
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to fun-qa.xiaoxin.tech/47.93.104.73:443 with timeout 2000000
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.xiaoxin.tech, OU=IT, O=北京北固亭科技有限公司, L=北京市, C=CN
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.xiaoxin.tech, xiaoxin.tech]
+2019-11-13 10:57:28 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+2019-11-13 10:57:28 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 10.8.0.20:62421<->47.93.104.73:443
+2019-11-13 10:57:28 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 10000000
+2019-11-13 10:57:28 DEBUG MainClientExec:255 - Executing request POST /calendar/getCalendar HTTP/1.1
+2019-11-13 10:57:28 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-11-13 10:57:28 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-11-13 10:57:28 DEBUG headers:135 - http-outgoing-0 >> POST /calendar/getCalendar HTTP/1.1
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> token: cf464e3477a143cfa1c44da0992aff7f
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 92
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> Host: fun-qa.xiaoxin.tech
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-11-13 10:57:28 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "POST /calendar/getCalendar HTTP/1.1[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "token: cf464e3477a143cfa1c44da0992aff7f[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 92[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "Host: fun-qa.xiaoxin.tech[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2019-11-13 10:57:28 DEBUG wire:86 - http-outgoing-0 >> "menuId=100002000&menuType=1&sellerId=190931367716&lng=116.349126&lat=39.975978&addressId=322"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 47[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "Etag: W/"2f-BtDHcqmihvFs37fNR5gBP5cOEQI"[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "X-Fc-Code-Checksum: 12029313935713991398[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "X-Fc-Invocation-Duration: 86[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "X-Fc-Invocation-Service-Version: LATEST[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "X-Fc-Max-Memory-Usage: 49.75[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "X-Fc-Request-Id: 6e4a3882-7d3a-409f-85a1-5552cacbb54a[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "Date: Wed, 13 Nov 2019 02:57:29 GMT[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:86 - http-outgoing-0 << "{"msg":"[0xe6][0xb2][0xa1][0xe6][0x9c][0x89][0xe5][0x8f][0xaf][0xe9][0xa2][0x84][0xe5][0xae][0x9a][0xe6][0x97][0xb6][0xe9][0x97][0xb4]","resCode":"500"}"
+2019-11-13 10:57:30 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << Content-Length: 47
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << Etag: W/"2f-BtDHcqmihvFs37fNR5gBP5cOEQI"
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << X-Fc-Code-Checksum: 12029313935713991398
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << X-Fc-Invocation-Duration: 86
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << X-Fc-Invocation-Service-Version: LATEST
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << X-Fc-Max-Memory-Usage: 49.75
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << X-Fc-Request-Id: 6e4a3882-7d3a-409f-85a1-5552cacbb54a
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << X-Powered-By: Express
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-0 << Date: Wed, 13 Nov 2019 02:57:29 GMT
+2019-11-13 10:57:30 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-11-13 10:57:30 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2019-11-13 10:57:30 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-13 10:57:30 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://fun-qa.xiaoxin.tech:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+2019-11-13 10:57:30 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {s}->https://fun-qa.xiaoxin.tech:443][total kept alive: 0; route allocated: 2 of 50; total allocated: 2 of 50]
+2019-11-13 10:57:30 DEBUG MainClientExec:234 - Opening connection {s}->https://fun-qa.xiaoxin.tech:443
+2019-11-13 10:57:30 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to fun-qa.xiaoxin.tech/47.93.104.73:443
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to fun-qa.xiaoxin.tech/47.93.104.73:443 with timeout 2000000
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.xiaoxin.tech, OU=IT, O=北京北固亭科技有限公司, L=北京市, C=CN
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.xiaoxin.tech, xiaoxin.tech]
+2019-11-13 10:57:30 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+2019-11-13 10:57:30 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 10.8.0.20:62422<->47.93.104.73:443
+2019-11-13 10:57:30 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-1: set socket timeout to 10000000
+2019-11-13 10:57:30 DEBUG MainClientExec:255 - Executing request POST /calendar/getCalendar HTTP/1.1
+2019-11-13 10:57:30 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2019-11-13 10:57:30 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2019-11-13 10:57:30 DEBUG headers:135 - http-outgoing-1 >> POST /calendar/getCalendar HTTP/1.1
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> token: cf464e3477a143cfa1c44da0992aff7f
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> Content-Length: 92
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> Host: fun-qa.xiaoxin.tech
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> Connection: Keep-Alive
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+2019-11-13 10:57:30 DEBUG headers:138 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "POST /calendar/getCalendar HTTP/1.1[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "token: cf464e3477a143cfa1c44da0992aff7f[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 92[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "Host: fun-qa.xiaoxin.tech[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_191)[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:86 - http-outgoing-1 >> "menuId=100002000&menuType=1&sellerId=190931367716&lng=116.349126&lat=39.975978&addressId=322"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "Content-Length: 47[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "Etag: W/"2f-BtDHcqmihvFs37fNR5gBP5cOEQI"[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "X-Fc-Code-Checksum: 12029313935713991398[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "X-Fc-Invocation-Duration: 38[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "X-Fc-Invocation-Service-Version: LATEST[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "X-Fc-Max-Memory-Usage: 46.46[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "X-Fc-Request-Id: 68eb247b-5075-4502-906c-905ecf98b4ed[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "X-Powered-By: Express[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "Date: Wed, 13 Nov 2019 02:57:30 GMT[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2019-11-13 10:57:30 DEBUG wire:86 - http-outgoing-1 << "{"msg":"[0xe6][0xb2][0xa1][0xe6][0x9c][0x89][0xe5][0x8f][0xaf][0xe9][0xa2][0x84][0xe5][0xae][0x9a][0xe6][0x97][0xb6][0xe9][0x97][0xb4]","resCode":"500"}"
+2019-11-13 10:57:30 DEBUG headers:124 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << Content-Length: 47
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << Etag: W/"2f-BtDHcqmihvFs37fNR5gBP5cOEQI"
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << X-Fc-Code-Checksum: 12029313935713991398
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << X-Fc-Invocation-Duration: 38
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << X-Fc-Invocation-Service-Version: LATEST
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << X-Fc-Max-Memory-Usage: 46.46
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << X-Fc-Request-Id: 68eb247b-5075-4502-906c-905ecf98b4ed
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << X-Powered-By: Express
+2019-11-13 10:57:30 DEBUG headers:127 - http-outgoing-1 << Date: Wed, 13 Nov 2019 02:57:30 GMT
+2019-11-13 10:57:30 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2019-11-13 10:57:30 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://fun-qa.xiaoxin.tech:443] can be kept alive indefinitely
+2019-11-13 10:57:30 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://fun-qa.xiaoxin.tech:443][total kept alive: 1; route allocated: 2 of 50; total allocated: 2 of 50]
+2019-11-13 10:57:30 INFO  XiaoxinZyDefaultData:33 - {"msg":"没有可预定时间","resCode":"500"}
