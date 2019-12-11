@@ -2,7 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e122c3-9c92-4357-be33-57e1ae08c280" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/data/customer/XiaoxinZBDefaultData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/data/rider/redirSetPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/data/rider/riderStakeFormPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/data/rider/xiaoxinParameGetsDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/data/rider/xiaoxinQSDefaultData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/domain/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/service/caseservice/CustomRetry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/service/caseservice/RetryListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/service/caseservice/TestngListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/service/httpservice/HttpResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/service/httpservice/HttpclientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/service/mailservice/generateReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/C3P0UTils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/HostUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/ParamUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/ResponseUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/java/com/xiaoxin/gdata/utils/SignUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/resources/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/resources/config/hosts.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/resources/config/keyv.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/resources/db_dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/resources/db_qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/test/java/com/xiaoxin/gdata/data/test/buyer/xiaoxinAppletOrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/test/java/com/xiaoxin/gdata/data/test/rider/redirSetPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/test/java/com/xiaoxin/gdata/data/test/rider/riderStakeFormPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/test/java/com/xiaoxin/gdata/data/test/rider/xiaoxinQSDefaultDataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/test/java/com/xiaoxin/gdata/data/test/rider/xiaoxinRiderDisliveryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/src/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/META-INF/xiaoxin_qagdata.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/data/customer/XiaoxinZBDefaultData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/data/rider/redirSetPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/data/rider/riderStakeFormPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/data/rider/xiaoxinParameGetsDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/data/rider/xiaoxinQSDefaultData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/domain/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/service/CustomRetry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/service/HttpResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/service/HttpclientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/service/RetryListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/service/TestngListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/C3P0UTils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/HostUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/ParamUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/ResponseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/com/xiaoxin/gdata/utils/SignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/config/hosts.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/config/keyv.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/db_dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/db_qa.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/test-classes/META-INF/xiaoxin_qagdata.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/test-classes/com/xiaoxin/gdata/data/test/buyer/xiaoxinAppletOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/test-classes/com/xiaoxin/gdata/data/test/rider/redirSetPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/test-classes/com/xiaoxin/gdata/data/test/rider/riderStakeFormPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/test-classes/com/xiaoxin/gdata/data/test/rider/xiaoxinQSDefaultDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/test-classes/com/xiaoxin/gdata/data/test/rider/xiaoxinRiderDisliveryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/target/xiaoxin_qagdata-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/reportng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/reportng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/sorttable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/suite1_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/html/suites.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/xml/com.xiaoxin.gdata.data.test.rider.redirSetPageTest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test-output/xml/com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoxin_qagdata/xiaoxin_qagdata.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,7 +190,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/rider/xiaoxinQSDefaultDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -188,7 +276,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -307,100 +395,6 @@
               <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gdata" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gdata" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gdata" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gdata" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="buyer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="gdata" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="rider" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -426,7 +420,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="xiaoxin_qagdata" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575979739319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576037122127" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -612,7 +606,7 @@
       <workItem from="1574317124600" duration="74363000" />
       <workItem from="1574739097433" duration="134358000" />
       <workItem from="1575710045772" duration="30190000" />
-      <workItem from="1575979772864" duration="2565000" />
+      <workItem from="1575979772864" duration="5444000" />
     </task>
     <servers />
   </component>
@@ -649,7 +643,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392575000" />
+    <option name="totallyTimeSpent" value="395454000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1199,7 +1193,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/rider/xiaoxinQSDefaultDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
