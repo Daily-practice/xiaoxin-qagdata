@@ -29,6 +29,20 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <!--跳过测试用例-->
+                    <skipTests>true</skipTests>
+                    <skipAfterFailureCount>1</skipAfterFailureCount>
+                    <forkCount>1</forkCount>
+                    <reuseForks>true</reuseForks>
+                    <excludes>
+                        <exclude>**/IT*.java</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -161,12 +175,5 @@
             <version>7.0.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.0.0</version>
-            <scope>compile</scope>
-        </dependency>
-
     </dependencies>
 </project>
