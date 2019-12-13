@@ -71,6 +71,7 @@ public class HttpclientService {
     public String postJsonObject(String uri, Map<String, String> headers, Object arg) {
         RequestBuilder requestBuilder = RequestBuilder.post();
         requestBuilder.setUri(uri);
+        LOG.info("请求接口路径：{}",uri);
         //add http headers
         return doHttpRequestJsonObject(headers, arg, requestBuilder);
     }
@@ -80,9 +81,10 @@ public class HttpclientService {
         for (Map.Entry<String, String> e : headers.entrySet()) {
             requestBuilder.addHeader(e.getKey(), e.getValue());
         }
+        LOG.info("添加header成功：{}", headers.toString());
         //add Entity
         JSONObject jsonObject = (JSONObject) JSON.toJSON(arg);
-//        LOG.info("json请求数据："+jsonObject);
+        LOG.info("入参："+jsonObject);
         //过滤反编译符号
 //        String s1 = StringEscapeUtils.unescapeJava(jsonObject.toString()) ;
 //        LOG.info("去除json转义符"+s1);

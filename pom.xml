@@ -25,7 +25,10 @@
                 <version>2.19</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/src/testng.xml</suiteXmlFile>//该文件位于工程根目录时，直接填写名字，其它位置要加上路径。
+                        <forkMode>never</forkMode>
+                        <argLine>-Dfile.encoding=UTF-8</argLine>
+                        <suiteXmlFile>${xmlFileName}</suiteXmlFile>
+                        <!--<suiteXmlFile>/src/testng.xml</suiteXmlFile>//该文件位于工程根目录时，直接填写名字，其它位置要加上路径。-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
