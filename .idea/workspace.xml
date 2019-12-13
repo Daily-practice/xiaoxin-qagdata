@@ -4,9 +4,6 @@
     <list default="true" id="d5e122c3-9c92-4357-be33-57e1ae08c280" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/httpservice/HttpclientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/httpservice/HttpclientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/rider/redirSetPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/rider/redirSetPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xiaoxin/gdata/data/test/rider/redirSetPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xiaoxin/gdata/data/test/rider/redirSetPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="122">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -550,7 +547,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="xiaoxin_qagdata" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576223020304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576228660709" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -736,7 +733,7 @@
       <workItem from="1574317124600" duration="74363000" />
       <workItem from="1574739097433" duration="134358000" />
       <workItem from="1575710045772" duration="30190000" />
-      <workItem from="1575979772864" duration="51935000" />
+      <workItem from="1575979772864" duration="52960000" />
     </task>
     <servers />
   </component>
@@ -773,7 +770,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441945000" />
+    <option name="totallyTimeSpent" value="442970000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -786,6 +783,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49336872" visible="true" weight="0.25383994" />
       <window_info id="Structure" order="1" sideWeight="0.5066313" side_tool="true" weight="0.18593371" />
@@ -1326,8 +1324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="122">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
