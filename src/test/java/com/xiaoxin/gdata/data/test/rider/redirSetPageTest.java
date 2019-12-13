@@ -11,7 +11,7 @@ public class redirSetPageTest {
 
     @Test(retryAnalyzer = CustomRetry.class)
     public void queryHistroyOrder() {
-        Assert.assertEquals(ResponseUtil.getOneKeyValue(rsp.queryHistroyOrder(),"msg"),"成功");
+        Assert.assertEquals(ResponseUtil.getOneKeyValue(rsp.queryHistroyOrder(),"msg"),"成功1");
     }
 
     @Test
