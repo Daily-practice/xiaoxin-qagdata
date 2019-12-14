@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.098">
+           time="5.520">
   <properties />
   
   
-            <testcase name="queryGrabList" time="0.469" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="getImpatInfo" time="0.463" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="updateRiderStatus" time="0.350" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="queryWaitOrder" time="0.500" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+            <testcase name="checkNewOrder" time="0.653" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="updateRiderStatus" time="0.437" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="getSumMoney" time="0.952" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="sysMobile" time="0.450" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
                 <testcase name="queryPszOrder" time="0.459" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="sysMobile" time="0.427" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="insertLocation" time="0.454" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="checkNewOrder" time="1.117" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="getSumMoney" time="0.419" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
-                <testcase name="initRiderCode" time="0.440" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="queryGrabList" time="0.572" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="queryWaitOrder" time="0.435" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="getImpatInfo" time="0.441" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="initRiderCode" time="0.543" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
+                <testcase name="insertLocation" time="0.578" classname="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest" />
       
 </testsuite>
