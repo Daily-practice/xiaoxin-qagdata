@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e122c3-9c92-4357-be33-57e1ae08c280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testng1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="189">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="162">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -97,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/buyer/xiaoxinAppletOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="54">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
@@ -483,6 +482,19 @@
             <path>
               <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="xiaoxin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gdata" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="buyer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaoxin_qagdata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="xiaoxin_qagdata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="test-output" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -510,7 +522,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="xiaoxin_qagdata" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576313280033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576313645941" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -564,7 +576,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml">
+  <component name="RunManager" selected="TestNG.xiaoxinAppletOrderTest.createOrder">
     <configuration name="TestngRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaoxin.gdata.data.test.TestngRun" />
       <module name="xiaoxin_qagdata" />
@@ -665,9 +677,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.xiaoxinAppletOrderTest.createOrder" />
         <item itemvalue="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" />
         <item itemvalue="Application.TestngRun" />
-        <item itemvalue="TestNG.xiaoxinAppletOrderTest.createOrder" />
         <item itemvalue="TestNG.redirSetPageTest" />
         <item itemvalue="TestNG.redirSetPageTest.queryHistroyOrder" />
       </list>
@@ -692,14 +704,11 @@
       <workItem from="1574317124600" duration="74363000" />
       <workItem from="1574739097433" duration="134358000" />
       <workItem from="1575710045772" duration="30190000" />
-      <workItem from="1575979772864" duration="62493000" />
+      <workItem from="1575979772864" duration="63456000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="redirSetPageTest - 2019.12.14 at 14h 27m 58s.xml">
-      <configuration name="redirSetPageTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="redirSetPageTest - 2019.12.14 at 14h 28m 59s.xml">
       <configuration name="redirSetPageTest" configurationId="TestNG" />
     </history-entry>
@@ -727,9 +736,12 @@
     <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.14 at 15h 11m 10s.xml">
       <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.14 at 16h 53m 56s.xml">
+      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="452503000" />
+    <option name="totallyTimeSpent" value="453466000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -742,6 +754,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49336872" visible="true" weight="0.25383994" />
       <window_info id="Structure" order="1" sideWeight="0.5066313" side_tool="true" weight="0.18593371" />
@@ -752,7 +765,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5026455" side_tool="true" weight="0.25464836" />
       <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32978722" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.47069272" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.47069272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -763,7 +776,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.330373" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.330373" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1225,18 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/buyer/xiaoxinAppletOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/utils/HostUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1257,13 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testng1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1271,10 +1265,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/buyer/xiaoxinAppletOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="162">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
         </state>
       </provider>
     </entry>
