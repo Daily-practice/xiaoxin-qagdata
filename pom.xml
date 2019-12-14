@@ -28,8 +28,8 @@
                     <suiteXmlFiles>
                         <forkMode>never</forkMode>
                         <argLine>-Dfile.encoding=UTF-8</argLine>
-                        <!--<suiteXmlFile>${xmlFileName}</suiteXmlFile>-->
-                        <suiteXmlFile>/src/testng.xml</suiteXmlFile>//该文件位于工程根目录时，直接填写名字，其它位置要加上路径。
+                        <suiteXmlFile>/src/${xmlFile}</suiteXmlFile>
+                        <!--<suiteXmlFile>/src/testng.xml</suiteXmlFile>//该文件位于工程根目录时，直接填写名字，其它位置要加上路径。-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
