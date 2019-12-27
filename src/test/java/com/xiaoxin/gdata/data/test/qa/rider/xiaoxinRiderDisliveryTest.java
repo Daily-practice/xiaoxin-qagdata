@@ -1,4 +1,4 @@
-package com.xiaoxin.gdata.data.test.rider;
+package com.xiaoxin.gdata.data.test.qa.rider;
 
 import com.xiaoxin.gdata.data.rider.xiaoxinParameGetsDatabase;
 import com.xiaoxin.gdata.service.httpservice.HttpclientService;
@@ -17,7 +17,7 @@ public class xiaoxinRiderDisliveryTest {
     private static Logger LOG = LoggerFactory.getLogger(xiaoxinRiderDisliveryTest.class) ;
     private  static String riderAppHosts = HostUtils.getURL("rider-qa-app") ;
     private static HttpclientService hs = new HttpclientService();
-    private static int i = 1 ;
+    private static int i = 0 ;
 
 
     public static Map<String,String> riderAppHeader() {
@@ -54,7 +54,7 @@ public class xiaoxinRiderDisliveryTest {
     //骑手操作到店
     @Test
     public void riderToStore(){
-        long dcOrderId = 101100005221L ;
+        long dcOrderId = 101100005908L ;
         List<String> businessIdList = ResponseUtil.getValues(getOrderDetail(dcOrderId),"businessInfoList","businessId") ;
 
         Map<String, Object> params = new HashMap<>();
@@ -79,7 +79,7 @@ public class xiaoxinRiderDisliveryTest {
     //骑手送达
     @Test
     public void riderPickUp(){
-        long dcOrderId = 101100005221L ;
+        long dcOrderId = 101100005908L ;
         List<String> orderList = ResponseUtil.getValues(getOrderDetail(dcOrderId),"detailDtoList","orderId") ;
 
         Map<String, Object> params = new HashMap<>();
@@ -104,7 +104,7 @@ public class xiaoxinRiderDisliveryTest {
     //骑手操作取餐
     @Test
     public void riderDelivery(){
-        long dcOrderId = 101100005221L ;
+        long dcOrderId = 101100005908L ;
         List<String> orderList = ResponseUtil.getValues(getOrderDetail(dcOrderId),"detailDtoList","orderId") ;
         Map<String, Object> params = new HashMap<>();
 

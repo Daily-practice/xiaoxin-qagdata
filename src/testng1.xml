@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="tests" thread-count="1">
     <test name="骑手端测试结果" preserve-order="true">
         <classes>
-            <class name="com.xiaoxin.gdata.data.test.rider.redirSetPageTest"></class>
-            <class name="com.xiaoxin.gdata.data.test.rider.riderStakeFormPageTest"></class>
+            <class name="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest"></class>
+            <class name="com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest"></class>
         </classes>
     </test>
 

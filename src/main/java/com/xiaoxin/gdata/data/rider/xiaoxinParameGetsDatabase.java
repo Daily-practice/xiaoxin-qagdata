@@ -11,7 +11,7 @@ public class xiaoxinParameGetsDatabase {
     private static Logger LOG = LoggerFactory.getLogger(xiaoxinParameGetsDatabase.class) ;
 
 
-    public String getaMenuId() {
+    public String getaMenuId(long sellerId) {
         Connection conn = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
@@ -28,12 +28,13 @@ public class xiaoxinParameGetsDatabase {
             //1、获取连接
             conn = JDBCUtils.getConnection();
             //2、编写执行sql语句
-            String sql = "SELECT menu_id FROM menu_calendar WHERE seller_id=? AND sell_start_time=?  ";
+            String sql = "SELECT menu_id FROM menu_calendar WHERE seller_id=? AND sell_start_time=? AND menu_type=?  ";
             //3、获取执行sql语句对象
             pstmt = conn.prepareStatement(sql);
             //4、设置参数
-            pstmt.setLong(1, 190931367716L);
+            pstmt.setLong(1, sellerId);
             pstmt.setString(2,nyr);
+            pstmt.setInt(3,1);
             //5、执行查询操作
             rs= pstmt.executeQuery();
             //6、处理结果集

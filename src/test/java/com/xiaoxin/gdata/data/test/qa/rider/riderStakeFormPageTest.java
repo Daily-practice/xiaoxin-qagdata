@@ -1,12 +1,9 @@
-package com.xiaoxin.gdata.data.test.rider;
+package com.xiaoxin.gdata.data.test.qa.rider;
 
 import com.xiaoxin.gdata.data.rider.riderStakeFormPage;
 import com.xiaoxin.gdata.utils.ResponseUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-
-import static org.junit.Assert.*;
 
 public class riderStakeFormPageTest {
     public static riderStakeFormPage rsfp = new riderStakeFormPage() ;

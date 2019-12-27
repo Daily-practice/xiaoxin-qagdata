@@ -1,4 +1,4 @@
-package com.xiaoxin.gdata.data.test.rider;
+package com.xiaoxin.gdata.data.test.qa.rider;
 
 import com.xiaoxin.gdata.data.rider.redirSetPage;
 import com.xiaoxin.gdata.service.caseservice.CustomRetry;
