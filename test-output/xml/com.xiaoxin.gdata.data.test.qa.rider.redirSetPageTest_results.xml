@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.520">
+           time="2.451">
   <properties />
   
   
-            <testcase name="queryHistroyOrder" time="0.498" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
-                <testcase name="getBills" time="2.581" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
-                <testcase name="getSch" time="0.441" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
+            <testcase name="queryHistroyOrder" time="0.427" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
+                <testcase name="getSch" time="0.419" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
+                <testcase name="getBills" time="1.605" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
       
 </testsuite>
