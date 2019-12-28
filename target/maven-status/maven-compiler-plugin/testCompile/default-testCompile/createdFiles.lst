@@ -1,0 +1,8 @@
+com\xiaoxin\gdata\data\test\dev\buyer\xiaoxinAppletOrderTest.class
+com\xiaoxin\gdata\data\test\qa\buyer\xiaoxinAppletOrderTest.class
+com\xiaoxin\gdata\data\test\qa\rider\xiaoxinRiderDisliveryTest.class
+com\xiaoxin\gdata\data\test\dev\buyer\XiaoxinZBDefaultDataTest.class
+com\xiaoxin\gdata\data\test\qa\rider\xiaoxinQSDefaultDataTest.class
+com\xiaoxin\gdata\data\test\qa\rider\riderStakeFormPageTest.class
+com\xiaoxin\gdata\data\test\qa\rider\redirSetPageTest.class
+com\xiaoxin\gdata\data\test\TestngRun.class
