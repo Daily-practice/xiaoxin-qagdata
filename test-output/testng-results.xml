@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9090" started-at="2019-12-28T14:11:55 GMT+08:00" finished-at="2019-12-28T14:12:04 GMT+08:00">
+    <groups>
+    </groups>
+    <test name="骑手端测试结果" duration-ms="9090" started-at="2019-12-28T14:11:55 GMT+08:00" finished-at="2019-12-28T14:12:04 GMT+08:00">
+      <class name="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest">
+        <test-method status="PASS" signature="getBills()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest@ba2f4ec]" name="getBills" duration-ms="1065" started-at="2019-12-28T14:11:55 GMT+08:00" finished-at="2019-12-28T14:11:56 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBills -->
+        <test-method status="PASS" signature="getSch()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest@ba2f4ec]" name="getSch" duration-ms="473" started-at="2019-12-28T14:11:56 GMT+08:00" finished-at="2019-12-28T14:11:56 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSch -->
+        <test-method status="PASS" signature="queryHistroyOrder()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest@ba2f4ec]" name="queryHistroyOrder" duration-ms="1197" started-at="2019-12-28T14:11:56 GMT+08:00" finished-at="2019-12-28T14:11:58 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryHistroyOrder -->
+      </class> <!-- com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest -->
+      <class name="com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest">
+        <test-method status="PASS" signature="checkNewOrder()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="checkNewOrder" duration-ms="1374" started-at="2019-12-28T14:11:58 GMT+08:00" finished-at="2019-12-28T14:11:59 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewOrder -->
+        <test-method status="PASS" signature="getImpatInfo()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="getImpatInfo" duration-ms="538" started-at="2019-12-28T14:11:59 GMT+08:00" finished-at="2019-12-28T14:12:00 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getImpatInfo -->
+        <test-method status="PASS" signature="getSumMoney()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="getSumMoney" duration-ms="488" started-at="2019-12-28T14:12:00 GMT+08:00" finished-at="2019-12-28T14:12:00 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSumMoney -->
+        <test-method status="PASS" signature="initRiderCode()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="initRiderCode" duration-ms="685" started-at="2019-12-28T14:12:00 GMT+08:00" finished-at="2019-12-28T14:12:01 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRiderCode -->
+        <test-method status="PASS" signature="insertLocation()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="insertLocation" duration-ms="476" started-at="2019-12-28T14:12:01 GMT+08:00" finished-at="2019-12-28T14:12:01 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertLocation -->
+        <test-method status="PASS" signature="queryGrabList()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="queryGrabList" duration-ms="470" started-at="2019-12-28T14:12:01 GMT+08:00" finished-at="2019-12-28T14:12:02 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryGrabList -->
+        <test-method status="PASS" signature="queryPszOrder()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="queryPszOrder" duration-ms="698" started-at="2019-12-28T14:12:02 GMT+08:00" finished-at="2019-12-28T14:12:02 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryPszOrder -->
+        <test-method status="PASS" signature="queryWaitOrder()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="queryWaitOrder" duration-ms="466" started-at="2019-12-28T14:12:02 GMT+08:00" finished-at="2019-12-28T14:12:03 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryWaitOrder -->
+        <test-method status="PASS" signature="sysMobile()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="sysMobile" duration-ms="514" started-at="2019-12-28T14:12:03 GMT+08:00" finished-at="2019-12-28T14:12:03 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysMobile -->
+        <test-method status="PASS" signature="updateRiderStatus()[pri:0, instance:com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest@1c1bbc4e]" name="updateRiderStatus" duration-ms="487" started-at="2019-12-28T14:12:03 GMT+08:00" finished-at="2019-12-28T14:12:04 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateRiderStatus -->
+      </class> <!-- com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest -->
+    </test> <!-- 骑手端测试结果 -->
+  </suite> <!-- Suite -->
+</testng-results>

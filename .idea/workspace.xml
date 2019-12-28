@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e122c3-9c92-4357-be33-57e1ae08c280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db_qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db_qa.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.xiaoxin.gdata.data.test.qa.rider.riderStakeFormPageTest_results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,32 +37,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/dev/buyer/xiaoxinAppletOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/hosts.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/redirSetPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db_qa.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="328" column="6" selection-start-line="328" selection-start-column="6" selection-end-line="328" selection-end-column="6" />
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -66,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/riderStakeFormPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="189">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,10 +77,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/mailservice/generateReport.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="204">
+              <caret line="17" column="4" selection-start-line="17" selection-end-line="18" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer/xiaoxinAppletOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,34 +98,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinQSDefaultDataTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db_dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinRiderDisliveryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/redirSetPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="80" column="27" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/caseservice/RetryListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="84">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,17 +121,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            <state relative-caret-position="219">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/caseservice/TestngListener.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/TestngRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="-270">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,13 +236,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer1/xiaoxinAppletOrderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinRiderDisliveryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/dev/buyer/XiaoxinZBDefaultDataTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/hosts.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/db_qa.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/data/customer/XiaoxinZBDefaultData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer/xiaoxinAppletOrder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer/xiaoxinAppletOrderTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/redirSetPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/hosts.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/db_qa.properties" />
       </list>
     </option>
   </component>
@@ -268,7 +263,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="99" />
     <option name="y" value="18" />
     <option name="width" value="1401" />
@@ -303,33 +298,15 @@
               <item name="xiaoxin_qagdata" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaoxin_qagdata" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoxin_qagdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdata" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoxin_qagdata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdata" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
@@ -351,6 +328,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoxin_qagdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="buyer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +346,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoxin_qagdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="buyer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoxin_qagdata" type="b2602c69:ProjectViewProjectNode" />
@@ -514,17 +510,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="xiaoxin_qagdata" type="58d84e3e:PackageViewProjectNode" />
-              <item name="xiaoxin_qagdata" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,14 +521,14 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="xiaoxin_qagdata" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577504063389" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577523574221" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -590,7 +576,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml">
+  <component name="RunManager" selected="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng1.xml">
     <configuration name="TestngRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiaoxin.gdata.data.test.TestngRun" />
       <module name="xiaoxin_qagdata" />
@@ -613,6 +599,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xiaoxin_qagdata" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng1.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="xiaoxin_qagdata" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testng.xml" />
@@ -623,18 +619,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xiaoxinAppletOrderTest.createOrder (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="redirSetPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="xiaoxin_qagdata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaoxin.gdata.data.test.dev.buyer.*" />
+          <option name="PATTERN" value="com.xiaoxin.gdata.data.test.qa.rider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xiaoxin.gdata.data.test.dev.buyer" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaoxin.gdata.data.test.dev.buyer.xiaoxinAppletOrderTest" />
-      <option name="METHOD_NAME" value="createOrder" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.xiaoxin.gdata.data.test.qa.rider" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -677,39 +671,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xiaoxinRiderDisliveryTest.riderPickUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="xiaoxin_qagdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaoxin.gdata.data.test.qa.rider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xiaoxin.gdata.data.test.qa.rider" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaoxin.gdata.data.test.qa.rider.xiaoxinRiderDisliveryTest" />
-      <option name="METHOD_NAME" value="riderPickUp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TestngRun" />
       <item itemvalue="JUnit.null" />
       <item itemvalue="TestNG.xiaoxinAppletOrderTest.createOrder" />
-      <item itemvalue="TestNG.xiaoxinRiderDisliveryTest.riderPickUp" />
-      <item itemvalue="TestNG.xiaoxinAppletOrderTest.createOrder (1)" />
       <item itemvalue="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" />
+      <item itemvalue="TestNG.redirSetPageTest" />
+      <item itemvalue="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng1.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng1.xml" />
         <item itemvalue="TestNG.D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" />
         <item itemvalue="TestNG.xiaoxinAppletOrderTest.createOrder" />
-        <item itemvalue="TestNG.xiaoxinAppletOrderTest.createOrder (1)" />
         <item itemvalue="Application.TestngRun" />
-        <item itemvalue="TestNG.xiaoxinRiderDisliveryTest.riderPickUp" />
+        <item itemvalue="TestNG.redirSetPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -738,32 +714,13 @@
       <workItem from="1576488058558" duration="54469000" />
       <workItem from="1576810022764" duration="93672000" />
       <workItem from="1577431640008" duration="1553000" />
-      <workItem from="1577433205711" duration="9414000" />
+      <workItem from="1577433205711" duration="10432000" />
+      <workItem from="1577512866634" duration="67000" />
+      <workItem from="1577512943784" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.26 at 19h 10m 39s.xml">
-      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.26 at 19h 21m 56s.xml">
-      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.26 at 20h 19m 34s.xml">
-      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.27 at 10h 49m 51s.xml">
-      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.27 at 11h 22m 32s.xml">
-      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.27 at 14h 58m 38s.xml">
-      <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.27 at 15h 17m 23s.xml">
-      <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.27 at 15h 17m 49s.xml">
       <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -773,9 +730,30 @@
     <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.27 at 20h 32m 05s.xml">
       <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.28 at 14h 03m 25s.xml">
+      <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="redirSetPageTest - 2019.12.28 at 14h 04m 31s.xml">
+      <configuration name="redirSetPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="xiaoxinAppletOrderTest_createOrder_(1) - 2019.12.28 at 14h 08m 56s.xml">
+      <configuration name="xiaoxinAppletOrderTest.createOrder (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="redirSetPageTest - 2019.12.28 at 14h 10m 52s.xml">
+      <configuration name="redirSetPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="xiaoxinAppletOrderTest_createOrder - 2019.12.28 at 16h 38m 26s.xml">
+      <configuration name="xiaoxinAppletOrderTest.createOrder" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.28 at 16h 54m 37s.xml">
+      <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Job_gitjob_IdeaProjects_xiaoxin_qagdata_src_testng_xml - 2019.12.28 at 16h 55m 17s.xml">
+      <configuration name="D:/Job/gitjob/IdeaProjects/xiaoxin_qagdata/src/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622181000" />
+    <option name="totallyTimeSpent" value="625781000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -790,7 +768,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49336872" visible="true" weight="0.27890056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49336872" visible="true" weight="0.3152789" />
       <window_info id="Structure" order="1" sideWeight="0.5066313" side_tool="true" weight="0.18593371" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -799,7 +777,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5026455" side_tool="true" weight="0.25464836" />
       <window_info anchor="bottom" id="Duplicate detector" order="0" weight="0.32978722" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.46276596" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.46181172" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3280142" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -812,7 +790,7 @@
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3280142" />
-      <window_info anchor="bottom" id="Terminal" order="15" visible="true" weight="0.3280142" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.3280142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -973,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="4" selection-start-line="17" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer/xiaoxinAppletOrderTest1.java" />
     <entry file="file://$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/utils/ResponseUtil.java">
@@ -1009,23 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db_dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/TestngRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/utils/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-951">
@@ -1043,30 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer/xiaoxinAppletOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/hosts.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db_qa.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/dev/buyer/XiaoxinZBDefaultDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1053">
@@ -1074,13 +1004,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/dev/buyer/xiaoxinAppletOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1141,9 +1064,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8856">
+          <caret line="328" column="6" selection-start-line="328" selection-start-column="6" selection-end-line="328" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/mailservice/generateReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinQSDefaultDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinRiderDisliveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/caseservice/RetryListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="243">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1161,30 +1128,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoxin/gdata/service/mailservice/generateReport.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/dev/buyer/xiaoxinAppletOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="61">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinQSDefaultDataTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/hosts.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="7">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/xiaoxinRiderDisliveryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="17" column="4" selection-start-line="17" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db_dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/redirSetPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1193,7 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/riderStakeFormPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
+        <state relative-caret-position="189">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1201,34 +1176,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/TestngRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="328" column="6" selection-start-line="328" selection-start-column="6" selection-end-line="328" selection-end-column="6" />
+        <state relative-caret-position="-270">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/buyer/xiaoxinAppletOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state relative-caret-position="219">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db_qa.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xiaoxin/gdata/data/test/qa/rider/redirSetPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
