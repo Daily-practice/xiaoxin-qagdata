@@ -1,8 +1,8 @@
 ##ignore this file##
-*/target
-.idea
-*.iml
-*/allure-results
-*/test-output
+/target
+/.idea
+/allure-results
+/test-output
+xiaoxin_qagdata.iml
 test.log
 
