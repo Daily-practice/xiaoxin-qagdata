@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="3"
-           time="3.416">
+           time="3.635">
   <properties />
-            <testcase name="queryHistroyOrder" time="0.455" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest">
+            <testcase name="queryHistroyOrder" time="0.389" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest">
                 <failure type="java.lang.AssertionError"
                   message="expected [成功1] but found [成功]"
               >
@@ -55,7 +55,7 @@
           <skipped />
     </testcase>
   
-            <testcase name="getSch" time="0.419" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
-                <testcase name="getBills" time="1.252" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
+            <testcase name="getBills" time="1.538" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
+                <testcase name="getSch" time="0.401" classname="com.xiaoxin.gdata.data.test.qa.rider.redirSetPageTest" />
       
 </testsuite>
