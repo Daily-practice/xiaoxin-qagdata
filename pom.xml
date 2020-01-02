@@ -34,7 +34,7 @@
                     <suiteXmlFiles>
                         <!--suppress UnresolvedMavenProperty -->
                         <!--<suiteXmlFile>${xmlFileName}</suiteXmlFile>-->
-                        <suiteXmlFile>/src/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <skipTests>true</skipTests>
                     <argLine>
