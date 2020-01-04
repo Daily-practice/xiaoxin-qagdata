@@ -13,10 +13,9 @@
         <aspectj.version>1.8.10</aspectj.version>
         <argLine>-Dfile.encoding=utf-8</argLine>
         <suiteXmlFile>src/testng.xml</suiteXmlFile>
-<!--        <xml.file>${env.xmlFileName}</xml.file>
-        <testType>${env.testType}</testType>-->
     </properties>
     <build>
+        <defaultGoal>compile</defaultGoal>
         <plugins>
             <!-- 添加插件,添加插件， 关联testNg.xml,添加ReportNg的监听器，修改最后的TestNg的报告 -->
             <plugin>
