@@ -1,16 +1,16 @@
 package com.xiaoxin.gdata.utils;
 
 import com.alibaba.fastjson.JSONObject;
+import com.xiaoxin.gdata.data.AssembledData;
+import com.xiaoxin.gdata.service.httpservice.HttpclientService;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
-import org.junit.Test;
 
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
 import java.io.BufferedInputStream;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.lang.reflect.Method;
@@ -24,6 +24,10 @@ import java.util.regex.Pattern;
  * 参数工具类，用于处理请求的各种参数
  */
 public class ParamUtil {
+
+    public static String host = HostUtils.getURL("rider-qa-apph5") ;
+    private static HttpclientService hs = new HttpclientService();
+
 
     public static String bean2JsonString(Object bean) {
         JSONObject jsonParam = (JSONObject) JSONObject.toJSON(bean);
@@ -98,7 +102,7 @@ public class ParamUtil {
         Set<String> parameterKeySet = apiParameterProperties.stringPropertyNames();
         HashMap<String, String> NameValuePairInfo = new HashMap<String, String>();
         for (String parameterKey : parameterKeySet) {
-            if (parameterKey.startsWith(interfaceName) || parameterKey.startsWith("put")) {
+            if (parameterKey.startsWith(interfaceName)) {
                 String key = parameterKey.substring(parameterKey.lastIndexOf(".") + 1, parameterKey.length());
                 String property = apiParameterProperties.getProperty(parameterKey);
                 NameValuePairInfo.put(key, property);
