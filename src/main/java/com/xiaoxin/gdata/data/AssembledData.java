@@ -1,12 +1,10 @@
 package com.xiaoxin.gdata.data;
 
-import com.xiaoxin.gdata.data.rider.xiaoxinParameGetsDatabase;
 import com.xiaoxin.gdata.service.httpservice.HttpclientService;
 import com.xiaoxin.gdata.utils.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -29,7 +27,6 @@ public class AssembledData {
                     String property = apiParameterProperties.getProperty(parameterKey);
                     NameValuePairInfo.put(key, property);
                 }
-    //            Map<String,String> params = ParamUtil.propertiesParamResolves(ParamUtil.getProfile(path),"getSch") ;
             }
             String url = host+NameValuePairInfo.get("path") ;
             NameValuePairInfo.remove("path") ;
