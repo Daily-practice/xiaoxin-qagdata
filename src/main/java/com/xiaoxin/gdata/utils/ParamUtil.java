@@ -10,9 +10,7 @@ import org.apache.http.message.BasicNameValuePair;
 import java.beans.BeanInfo;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
-import java.io.InputStream;
+import java.io.*;
 import java.lang.reflect.Method;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -230,6 +228,7 @@ public class ParamUtil {
         Properties prop = new Properties();
         try {
             InputStream in = new BufferedInputStream(new FileInputStream(path));
+//            prop.store(new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(path)))), "utf-8");
             prop.load(in);
         }catch (Exception e) {
             e.printStackTrace();
