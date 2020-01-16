@@ -19,7 +19,7 @@ public class redirSetPageTest {
 
     @Test(retryAnalyzer = CustomRetry.class)
     public void queryHistroyOrder() {
-        Assert.assertEquals(ResponseUtil.getOneKeyValue(rsp.bulkRequestInterface(ParamUtil.getProfile(path),"queryHistroyOrder",host, httpHeaders.riderAppHeader()),"msg"),"成功");
+        Assert.assertEquals(ResponseUtil.getOneKeyValue(rsp.bulkRequestInterface(ParamUtil.getProfile(path),"queryHistroyOrder",host, httpHeaders.riderAppHeader()),"msg"),"成功1");
     }
 
     @Test
