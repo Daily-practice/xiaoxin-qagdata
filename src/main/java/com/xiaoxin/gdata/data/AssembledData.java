@@ -4,6 +4,7 @@ import com.xiaoxin.gdata.service.httpservice.HttpclientService;
 import com.xiaoxin.gdata.utils.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +15,7 @@ public class AssembledData {
     private static HttpclientService hs = new HttpclientService();
     private static Logger LOG = LoggerFactory.getLogger(AssembledData.class) ;
 
-    public static String bulkRequestInterface(Properties apiParameterProperties, String interfaceName,String host,Map<String,String> header) {
+    public static void bulkRequestInterface(Properties apiParameterProperties, String interfaceName,String host,Map<String,String> header) {
         int i = 1 ;
         String ActualValue = null ;
         String expectedValue = null ;
@@ -35,13 +36,13 @@ public class AssembledData {
             String url = host+NameValuePairInfo.get("path") ;
             NameValuePairInfo.remove("path") ;
             content = hs.postJsonObject(url, header,NameValuePairInfo) ;
-            LOG.info("请求接口{},第{}次,还差{}次,response:{}",url,i,z-i,content);
+            LOG.info("请求接口{},第{}组,还差{}组,response:{}",url,i,z-i,content);
             if(!ResponseUtil.getOneKeyValue(content,ActualValue).equals(expectedValue)){
-                throw new RuntimeException("请求"+url+"接口失败,已请求"+i+"次===ActualValue="+ResponseUtil.getOneKeyValue(content,ActualValue)+",expectedValue="+expectedValue) ;
+                LOG.error("请求:{}接口失败,第{}组参数===ActualValue={},expectedValue={}",url,i,ResponseUtil.getOneKeyValue(content,ActualValue),expectedValue);
+                Assert.assertEquals(ResponseUtil.getOneKeyValue(content,ActualValue),expectedValue);
             }
             NameValuePairInfo.clear();
             i++;
         }
-        return content ;
     }
 }
